@@ -86,7 +86,7 @@ body {
 
 @media screen and (max-width: 880px) {
   .movie-list {
-    margin: 0;
+    margin: 1rem 0;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
@@ -98,7 +98,7 @@ body {
   }
 
   .movie-list {
-    margin: 0;
+    margin: .5rem 0;
     gap: 25px;
   }
 }
