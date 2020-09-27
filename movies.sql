@@ -1,10 +1,10 @@
-create table movies
-(
-	id BIGSERIAL PRIMARY KEY,
-	movie_title VARCHAR(100) NOT NULL,
-	movie_genre VARCHAR(100) NOT NULL,
-	movie_image VARCHAR(255) NOT NULL
-);
+-- create table movies
+-- (
+-- 	id BIGSERIAL PRIMARY KEY,
+-- 	movie_title VARCHAR(100) NOT NULL,
+-- 	movie_genre VARCHAR(100) NOT NULL,
+-- 	movie_image VARCHAR(255) NOT NULL
+-- );
 insert into movies
 	(id, movie_title, movie_genre, movie_image)
 values
