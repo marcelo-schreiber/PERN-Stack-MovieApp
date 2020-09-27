@@ -17,7 +17,7 @@ import ShowNumOfPages from './components/ShowNumOfPages';
 
 function Main() {
   // Constants
-  const URL = 'http://localhost:8080/movies';
+  const URL = '/movies';
   const FILMSPERPAGE = 6; // 55 movies in total, 9 pages max
 
   const [movieData, setMovieData] = useState([]);
