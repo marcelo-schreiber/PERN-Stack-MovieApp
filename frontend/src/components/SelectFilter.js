@@ -2,6 +2,8 @@ import React from 'react';
 
 function FilterMovie({ filter, setFilter }) {
   return (
+<>
+<label>Order by</label>
     <select
       selected={filter}
       onChange={(e) => {
@@ -11,6 +13,7 @@ function FilterMovie({ filter, setFilter }) {
       <option value="movie-genre">Movie genre</option>
       <option value="date-added">Date added</option>
     </select>
+</>
   );
 }
 
