@@ -7,7 +7,7 @@ And the restAPI is in https://pern-generic-movie-app.herokuapp.com/movies
 
 # How to run on your machine
 
-- Make sure to download nodejs and postgreSQL.
+- Make sure to download <a href="https://nodejs.org/en/">Nodejs</a> and <a href="https://www.postgresql.org/">PostgreSQL</a>
 
 - Create a database in your postgreSQL terminal and
 a .env file in the root directory with the content
