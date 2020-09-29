@@ -30,6 +30,6 @@ a .env file in the root directory with the content
 
 - and in the frontend folder use:
 
-### npm start
+### `npm start`
 
-- Your machine should be hosting an example in your localhost in port 3000.
+## Your machine should be hosting an example in your localhost in port 3000.
